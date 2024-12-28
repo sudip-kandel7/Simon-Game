@@ -35,7 +35,7 @@ $(document).ready(function () {
     const randomChosenColor = buttonColors[randomNumber];
     gamePattern.push(randomChosenColor);
 
-    $("#" + randomChosenColor)
+    $("." + randomChosenColor)
       .fadeOut(100)
       .fadeIn(100);
     playSound(randomChosenColor);
